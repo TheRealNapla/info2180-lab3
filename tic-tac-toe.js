@@ -36,7 +36,14 @@ function play(){
     }
 }
 
+function newGame(){
+    document.querySelector("button").addEventListener("click", function(){
+        location.reload();
+    })
+}
+
 document.addEventListener("DOMContentLoaded", function(){
     boardLayout();
     play();
+    newGame();
 })

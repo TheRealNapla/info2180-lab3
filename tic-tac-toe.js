@@ -88,6 +88,7 @@ function findWinner(){
         status.textContent = "Tie Game. Please start a new game.";
     }
 }
+
 function newGame(){
     document.querySelector("button").addEventListener("click", function(){
         location.reload();
